@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /*Colores Primarios*/
+    --Rojo: hsl(0, 100%, 74%);
+    --Verde: hsl(154, 32%, 51%);
+    /*Colores Accent*/
+    --azul: hsl(248, 32%, 49%);
+
+    /*Colores Neutral*/
+    --DarkBlue: hsl(249, 10%, 26%);
+    --GrayishBlue: hsl(246, 25%, 77%);
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    /* min-width: 100vh; */
+    min-height: 100vh;
+    width: 100%;
+    background: url(./images/bg-intro-desktop.png) no-repeat center center fixed;
+    background-color: var(--Rojo);
+    background-size: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    /* min-height: 100vh; */
+    width: 100%;
+    /* align-items: center; */
+
+}
+
+.info{
+    flex: 1;
+    width: 400px;
+    padding: 25px;
+    margin: 10px;
+    color: #fff;
+    text-align: left;
+}
+
+.title{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.parrafo{
+    font-size: 16px;
+}
+
+.form-register{
+    flex: 2;
+    width: 400px;
+    max-width: 100%;
+    padding: 25px;
+    margin: 10px;
+}
+.text_oferta{
+    width: 100%;
+    max-width: 400px;
+    right: 200px;
+    background-color: #5645c4;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#spanOferta{
+    font-weight: normal;
+}
+
+.form{
+    margin-top: 10px;
+    /* justify-items: right; */
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    right: 10px;
+}
+/* .form-register{
+    width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-right: 30px;
+    border-radius: 10px;
+} */
+
+.controls{
+    font-family: inherit;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    border: 1px solid hsl(246, 25%, 77%) ;
+    font-size: 16px;
+}
+
+.boton{
+    font-family: inherit;
+    font-size: 16px;
+    background-color:#38CC8C ;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    color: white;
+    height: 40px;
+}
+#condiciones{
+    color: var(--GrayishBlue);
+    font-size: 16px;
+}
+
+.link{
+    font: inherit;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--Rojo);
+}
